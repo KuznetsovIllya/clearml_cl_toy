@@ -2,7 +2,7 @@ import os
 
 class TrainConfig:
     BATCH_SIZE = 4
-    NUM_OF_CLASSES = 10
+    NUM_OF_CLASSES = 2
     INIT_LR = 0.00001
     NUM_EPOCHS = 2
     MODEL_PATH = "./output"
