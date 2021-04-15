@@ -5,9 +5,9 @@ class TrainConfig:
     NUM_OF_CLASSES = 2
     INIT_LR = 0.00001
     NUM_EPOCHS = 2
-    MODEL_PATH = "./output"
+    MODEL_PATH = "/projects/clearml_cl_toy/output"
 
-    DATA_PATH = "./destination"
+    DATA_PATH = "/projects/clearml_cl_toy/destination"
     TRAIN_PATH = os.path.join(DATA_PATH, "train")
     EVAL_PATH = os.path.join(DATA_PATH, "eval")
     TEST_PATH = os.path.join(DATA_PATH, "test")
